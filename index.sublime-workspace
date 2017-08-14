@@ -1,0 +1,453 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list-styl",
+				"list-style-position"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"the",
+				"theForm"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"cl",
+				"clickListener"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 94.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/wordpress-4.7.4/wordpress/wp-config.php",
+		"/C/Users/VRComrie/Git_Lunch_2/.gitignore",
+		"/C/wamp/www/aaitherthin/hideyhole/.htaccess",
+		"/C/wamp/www/aaitherthin/.htaccess",
+		"/C/wamp/www/aaitherthin/hideyhole/wp-config.php",
+		"/C/wamp64/www/spoons-working/spoon-package-little-neko/files/neko-framework/css/layout/neko-framework-layout.css",
+		"/C/wamp64/www/aaa/assets/css/main.css",
+		"/C/wamp64/www/spoons-working/spoon-package-little-neko/documentation-v1/slider-revolution-responsive-jquery-plugin/start-here.html",
+		"/C/wamp-old/www/spoons-working/spoon-package-little-neko/files/neko-framework/css/layout/neko-framework-layout.css",
+		"/C/wamp-old/www/spoons-working/spoon-package-little-neko/files/blog-home-sidebar-right.html",
+		"/C/wamp-old/www/aaa/index.html",
+		"/C/wamp-old/www/aaa/assets/css/main.css",
+		"/C/Users/VRComrie/Desktop/development-environments-for-beginners-master/development-environments-for-beginners-master/book.md",
+		"/C/wamp/www/aaa/assets/css/main.css",
+		"/C/wamp/www/aaa/index.html",
+		"/C/wamp/www/aaitherthin2/home-18.html",
+		"/C/wamp/www/aaitherthin2/css/custom.css",
+		"/C/wamp/www/Semantic-UI-master/Semantic-UI-master/examples/theming.html",
+		"/C/wamp/www/Semantic-UI-master/Semantic-UI-master/examples/components/menu.html",
+		"/C/wamp/www/aaitherthin2/index.html",
+		"/C/wamp/www/aaitherthin2/home-2.html",
+		"/C/wamp/www/aaitherthin2/neko-framework/css/layout/neko-framework-layout.css",
+		"/C/wamp/www/aaitherthin2/aaitherthin.html",
+		"/C/wamp/www/aaitherthin2/neko-framework/css/layout/neko-var-layout.css",
+		"/C/wamp/www/aaitherthin2/home-8.html",
+		"/C/wamp/www/aaitherthin2/index-new.html",
+		"/C/wamp/www/aaitherthin2/index-VC.html",
+		"/C/wamp/www/aaa/assets/sass/libs/_vars.scss",
+		"/C/wamp/www/aaa/assets/sass/libs/_skel.scss",
+		"/C/wamp/www/aaa/assets/sass/libs/_mixins.scss",
+		"/C/wamp/www/aaa/assets/sass/libs/_functions.scss",
+		"/C/wamp/www/aaa/assets/sass/main.scss",
+		"/C/wamp/www/aaa/README.txt",
+		"/C/wamp/www/aaa/right-sidebar.html",
+		"/C/wamp/www/aaa/assets/js/jquery.dropotron.min.js",
+		"/C/wamp/www/1/jquery.scrollytoo.js",
+		"/C/wamp/www/1/jquery.scrolly.js",
+		"/C/wamp/www/Casper-1.3.5/Casper-1.3.5/README.md",
+		"/C/wamp/www/Casper-1.3.5/Casper-1.3.5/index.hbs",
+		"/C/wamp/www/aaa/assets/js/main.js",
+		"/C/wamp/www/aaa/assets/js/jquery.scrolly.min.js",
+		"/C/wamp/www/aaitherthin2/blog-home-full.html",
+		"/C/wamp/www/aaitherthin2/neko-framework/bootstrap/dist/unmin/bootstrap.css",
+		"/C/wamp/www/aaitherthin2/neko-framework/external-plugins/easing/jquery.easing.1.3.js",
+		"/C/wamp/www/html5up-twenty/index.html",
+		"/C/wamp/www/html5up-twenty/assets/css/main.css",
+		"/C/wamp/www/aaitherthin2/features-header-pre-header-main-color.html",
+		"/C/wamp/www/spoons-working/spoon-package-little-neko/files/home-11.html",
+		"/C/wamp/www/aaitherthin2/blog-home-sidebar-right.html",
+		"/C/wamp/www/spoons-working/spoon-package-little-neko/files/neko-framework/css/color/neko-framework-silver.css",
+		"/C/wamp/www/aaitherthin2/neko-framework/bootstrap/dist/js/bootstrap.js",
+		"/C/wamp/www/aaitherthin2/neko-framework/external-plugins/external-plugins.css",
+		"/C/wamp/www/aaitherthin2/js/custom.js",
+		"/C/wamp/www/aaitherthin2/features-header-pre-header.html",
+		"/C/wamp/www/ghost/content/themes/casper/index.hbs",
+		"/C/wamp/www/JavaScript30-master/01 - JavaScript Drum Kit/style.css",
+		"/C/Users/VRComrie/AppData/Local/Temp/adobegc.log",
+		"/C/wamp/www/JavaScript30-master/01 - JavaScript Drum Kit/index-FINISHED.html",
+		"/C/wamp/www/JavaScript30-master/01 - JavaScript Drum Kit/index.html",
+		"/C/Users/VRComrie/Desktop/DLM.log",
+		"/C/wamp/www/spoons-working/spoon-package-little-neko/files/neko-framework/bootstrap/dist/unmin/bootstrap.css",
+		"/C/wamp/www/IndicoCopy/index.html",
+		"/C/wamp/www/Indico2/css/new_reset.css",
+		"/C/wamp/www/Indico2/css/custom.css",
+		"/C/wamp/www/Indico2/index.html",
+		"/C/wamp/www/RWD-Frain/Chapter 2/example_02-02/index.html",
+		"/C/wamp/www/RWD-Frain/RWDHTML5CSS3_Chapter2/css/main.css",
+		"/C/wamp/www/RWD-Frain/RWDHTML5CSS3_Chapter2/css/MediaQueryTest.css",
+		"/C/wamp/www/aaa-indico/package.json",
+		"/C/wamp/www/buildtool-master/buildtool-master/README.md",
+		"/C/rubygems-update-2.6.7.gem",
+		"/C/wamp/www/converter/package.json",
+		"/C/wamp/www/converter/test/converter.js",
+		"/C/wamp/www/converter/node_modules/.bin/mocha",
+		"/C/wamp/www/converter/test/test.js",
+		"/C/wamp/www/aaa-indico/.git/index",
+		"/C/wamp/www/makefile.mak",
+		"/C/wamp/www/aaa-indico/.gitignore",
+		"/C/wamp/www/spoons-working/spoon-package-little-neko/files/blog-home-full.html",
+		"/C/wamp/www/Indico/index-original.html",
+		"/C/wamp/www/Indico/index.html",
+		"/C/wamp/www/Indico/css/original.css",
+		"/C/wamp/www/Indico/js/global-original.js",
+		"/C/wamp/www/Indico/css/cremeFraiche2.css",
+		"/C/wamp/www/Indico/css/cremeFraiche1.css",
+		"/C/wamp/www/Indico/css/marcanthony.css",
+		"/C/wamp/www/Indico/js/marcanthony.js",
+		"/C/wamp/www/spoons-working/spoon-package-little-neko/files/neko-framework/css/layout/neko-framework-layout.css",
+		"/C/wamp/www/Indico/js/marcanthony.jss",
+		"/C/wamp/www/Indico/js/main.js",
+		"/C/wamp/www/Indico/index-exp.html",
+		"/C/wamp/www/Indico/js/build/global.min.js",
+		"/C/wamp/www/Indico/css/cremeFraiche.css",
+		"/C/wamp/www/Indico/js/global.js",
+		"/C/wamp/www/Indico/js/jquery.scrollTo.js",
+		"/C/wamp/www/Indico/js/contact.js",
+		"/C/wamp/www/Indico/css/style.css",
+		"/C/wamp/www/Angular_Quickie/maincontroller.js",
+		"/C/Users/VRComrie/Documents/2000 and beyond learn to be a great front end web developer/Angular_Quickie/app.js",
+		"/C/Users/VRComrie/Documents/2000 and beyond learn to be a great front end web developer/Angular_Quickie/main.ctrl.js",
+		"/C/wamp/www/Angular_Quickie/index.html",
+		"/C/Users/VRComrie/Documents/2000 and beyond learn to be a great front end web developer/Kendo/code/code/demo_jshint/app.js",
+		"/C/Users/VRComrie/Documents/2000 and beyond learn to be a great front end web developer/Kendo/code/code/demo_jshint/app_mod1.js",
+		"/C/Users/VRComrie/Documents/2000 and beyond learn to be a great front end web developer/Kendo/code/code/demo_jshint/app_mod2.js",
+		"/C/Users/VRComrie/Documents/2000 and beyond learn to be a great front end web developer/Kendo/code/code/demo_jshint/app_orig.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_5/calculator.css",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Completed_Files/Chapter_5/calculator_final.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_5/calculator.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_5/calculator.html",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_5/calculator-hw.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_5/calculator2.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_5/._calculator.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_4/positioning.html",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_4/positioning.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Completed_Files/Chapter_3/dom.html",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_3/main.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_3/dom.html",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Completed_Files/Chapter_3/main.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_2/dom.html",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_2/main.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_4/main.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Completed_Files/Chapter_4/positioning.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Completed_Files/Chapter_2/main.js",
+		"/C/wamp/www/gymnasium-js/JSF_Lesson_03_Homework_Files/JSF_Lesson_03_Starting_Files/Chapter_1/dom.html",
+		"/C/Users/VRComrie/Documents/2000 and beyond learn to be a great front end web developer/Gymnasium Javascript Foundations/JSF_Lesson_02_Homework_Files/JSF_Lesson_02_Homework_Files/Lesson_02_HW/keyListener.js",
+		"/C/Users/VRComrie/Documents/2000 and beyond learn to be a great front end web developer/Gymnasium Javascript Foundations/JSF_Lesson_02_Homework_Files/JSF_Lesson_02_Homework_Files/Lesson_02_HW/index1.html",
+		"/C/Users/VRComrie/Documents/2000 and beyond learn to be a great front end web developer/Gymnasium Javascript Foundations/JSF_Lesson_02_Homework_Files/JSF_Lesson_02_Homework_Files/Lesson_02_HW/keyListener2.js",
+		"/C/Users/VRComrie/Documents/2000 and beyond learn to be a great front end web developer/Gymnasium Javascript Foundations/JSF_Lesson_02_Homework_Files/JSF_Lesson_02_Homework_Files/Lesson_02_HW/loginUserInfo.js"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"latest news",
+			"color",
+			"background",
+			"header",
+			"red",
+			"submenu",
+			" image-24",
+			".image",
+			".image-24",
+			"special",
+			"Ljbre",
+			"Lato",
+			"uppercase",
+			"#logo",
+			"logo",
+			"#banner",
+			"banner",
+			".index",
+			"index",
+			"pic01.jpg",
+			"cta",
+			"background",
+			"font",
+			"h2",
+			"page-wrapper",
+			"banner",
+			"image",
+			"image-background",
+			"x-large",
+			"mask",
+			"page-header",
+			"parallax",
+			"content",
+			"page-header",
+			"image",
+			"header",
+			"exit",
+			"error",
+			"fatal",
+			"error",
+			"#top",
+			"box1160",
+			"class=box1160",
+			".box1160",
+			"red",
+			".png",
+			".leader",
+			"box-sizing",
+			"li",
+			"ul",
+			"blockquote",
+			"line-height",
+			"overflow",
+			".sec01",
+			"#top",
+			"sticky",
+			".sticky",
+			"themsbeeels",
+			"table",
+			"button",
+			"$brand-primary",
+			"button",
+			"color",
+			"modal",
+			"nav",
+			"hover",
+			"antialiased",
+			"clearfix",
+			"flex",
+			"pear",
+			"th",
+			"radio",
+			".box1160",
+			".a-btn",
+			".og-grid",
+			"og-grid",
+			" name",
+			"2px solid green",
+			".container",
+			"2px solid red",
+			".long-input",
+			"form",
+			"blue",
+			"message",
+			"lobster",
+			"all-wrapper",
+			"close",
+			"control.png",
+			"visit",
+			"h4",
+			".contain-header",
+			"img",
+			"content",
+			"container",
+			"row",
+			"container",
+			"margtopmin",
+			"flaticon",
+			"clearfix",
+			"searchbox",
+			"reset",
+			"mapbuttons",
+			"finalbuttons",
+			"contact",
+			"league",
+			"h1",
+			"fortitude-base-rem-font-size",
+			"nav",
+			"navigation",
+			"nav",
+			"1.125rem;",
+			"vegasvikk",
+			"#4DDBC4 ",
+			"$info-color",
+			"theme",
+			"#fortitude",
+			"$links",
+			"pad10",
+			"joshua",
+			"h4",
+			".buttonholders",
+			"regular",
+			"botmarg",
+			"buttonholders",
+			"tooltip",
+			"blue",
+			"middle-cols-members",
+			"middle-cols"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 75.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
