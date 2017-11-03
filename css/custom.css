@@ -4,7 +4,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   font-family: 'Muli', sans-serif;
-  margin-bottom: 30px;
+  
   line-height: 30px;
 }
 
@@ -13,6 +13,12 @@ body {
 	sans-serif;font-size: 1.2em; 
 	color: #fff; 
 	margin-top: 1px;
+}
+
+.footer-brand {
+  font-family: 'Oswald'; 
+  sans-serif;font-size: 3em; 
+  color: #fff;   
 }
 
 .headline-font {
@@ -228,4 +234,8 @@ textarea {
 
 .shadow {
   text-shadow: 1px 2px 3px #000000;
+}
+
+footer a.white {
+  color: #fff;
 }
