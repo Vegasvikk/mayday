@@ -15,21 +15,17 @@
 	<meta name="author" content="Vickie R. Comrie">
 	<!-- Mobile Specific Metas ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- CSS ================================================== -->
+	<!--- web font  -->
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-	<!-- Neko framework  -->
-	<link type="text/css" rel="stylesheet" href="custom-icons/css/custom-icons.css">
-	<link type="text/css" rel="stylesheet" href="neko-framework/external-plugins/external-plugins.css">
-	<link type="text/css" rel="stylesheet" href="neko-framework/css/layout/neko-framework-layout.css">
-	<link type="text/css" rel="stylesheet" id="color" href="neko-framework/css/color/neko-framework-silver-expanded.css">
-
-      <!-- my overrides of this template -->
-	<link type="text/css" rel="stylesheet" href="css/custom.css">
+	<link href="custom-icons/css/custom-icons.css" rel="stylesheet" type="text/css">
+	<link href="css/external-plugins.css" rel="stylesheet" type="text/css">
+	<link href="css/layout/layout.css" rel="stylesheet" type="text/css">
+	<link href="css/color/silver-expanded.css" id="color" rel="stylesheet" type="text/css">
+	<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- my overrides of this template -->
 	<!-- Favicons ================================================== -->
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -38,19 +34,18 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
 	<!-- <link rel="stylesheet" href="http://basehold.it/30"> -->
 
-	<script src="neko-framework/external-plugins/modernizr/modernizr.custom.js"></script>
+	<script src="external-plugins/modernizr/modernizr.custom.js"></script>
 
 </head>
+
 <body class="activate-appear-animation header-dark nav-style-1">
 	<!-- global-wrapper -->
 	<div id="global-wrapper">
 		<!-- header -->
-
-		<!-- header -->
-		<header class="menu-header navbar-fixed-top" role="banner">
+		<header class="menu-header navbar-fixed-top">
 
 			<div class="container">
-				<nav class="navbar navbar-default" role="navigation">
+				<nav class="navbar navbar-default">
 					<div class="navbar-header">
 						<!-- hamburger button -->
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -62,7 +57,7 @@
 						<!-- / hamburger button -->
 
 						<!-- Logo -->
-						<a class="navbar-brand" href="index.html"><img src="images/logo3.png">Comrie Consulting</a>
+						<a class="navbar-brand" href="index.html">Comrie Consulting</a>
 						
 						<!-- /Logo -->
 					</div>
@@ -102,10 +97,23 @@
 									<li><a href="portfolio-project-lvp.html">Las Vegas Pics</a>
 									</li>
 
+									
 									<li>
-										<a  style="background: black; color: white;" href="#">Magnolia Women's Recovery</a>
-					
+										<a class="has-sub-menu" style="background: black; color: white;" href="#">Magnolia Women's Recovery</a>
+										<ul class="sub-menu">
+											<li>
+												<a href="portfolio-project-mwrp.html#website">Website</a>
+											</li>
+											<li>
+												<a href="portfolio-project-mwrp.html#brochure">Brochure</a>
+											</li>
+											<li>
+												<a href="portfolio-project-mwrp.html#articles">Articles</a>
+											</li>
+										</ul>
 									</li>
+
+									<li>
 
 									
 										<a href="portfolio-project-chat.html">Chatalog</a>
@@ -122,29 +130,26 @@
 							
 							<li  class="menu-action"><a href="index.html#hire" class="btn btn-primary btn small">Hire Me!</a></li>
 
-						</ul>
-						<!-- / End main navigation -->
+						</ul>	
 					</div>
-
-
-				</nav>
+				</nav><!-- / End main navigation -->
 			</div>
-
 		</header>
 		<!-- / header -->
 
 
 		<!-- content -->
 		<main id="content">
-			<header class="page-header">
+			<header class="page-header brown-background">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-9">
-							<h1>Magnolia Women's Recovery Program<small style="font-size: 14px;">In Web Design and Strategy/ User Personas / Content Writing</small></h1>
-						</div>
-						<!-- navigation -->
-						<div class="col-md-3 text-right">
 
+						<div class="col-md-9">
+							<h1 class="text-light text-shadow">Magnolia Women's Recovery Program<small>In Web Design and Strategy/ User Personas / Content Writing</small></h1>
+						</div>
+
+						<!-- secondary navigation -->
+						<div class="col-md-3 text-right">
 							<a href="index.html#pastworks">
 								<i class="icon-glyph-121 light-color circle"></i>
 							</a>
@@ -155,14 +160,14 @@
 							<a href="portfolio-project-chat.html">
 								<i class="icon-glyph-40 light-color circle"></i>
 							</a>
+						</div><!-- / secondary navigation -->
 
-						</div>
-						<!-- / navigation -->
 					</div>
 				</div>
-			</header>
+			</header><!-- end header -->
 
-			<section class="pt pb" id="website">
+			<!--start carousel-->
+			<section class="pt pb">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8">
@@ -170,22 +175,22 @@
 							<div class="owl-carousel neko-data-owl" data-neko_items="1" data-neko_singleitem="true" data-neko_paginationnumbers="true" data-neko_transitionstyle="fadeUp">
 								<!-- owl carousel item 1 -->
 								<div class="item">
-									<img src="images/slider/carousel/mwrp/mwrp-n1.png" alt="news page of Magnolia Women's Recovery Program website" class="full-width"/>
+									<img src="images/slider/carousel/mwrp/mwrp-n1.png" alt="news page of Magnolia Women's Recovery Program website" class="full-width">
 								</div>
 								<!-- / owl carousel item 1 -->
 								<!-- owl carousel item 2 -->
 								<div class="item">
-									<img src="images/slider/carousel/mwrp/mwrp-n2.png" alt="Magnolia Women's Recovery Program-testimonials page" class="full-width"/>
+									<img src="images/slider/carousel/mwrp/mwrp-n2.png" alt="Magnolia Women's Recovery Program-testimonials page" class="full-width">
 								</div>
 								<!-- / owl carousel item 2 -->
 								<!-- owl carousel item 3 -->
 								<div class="item">
-									<img src="images/slider/carousel/mwrp/mwrp-n4.png" alt="Magnolia Women's Recovery Program-links page" class="full-width"/>
+									<img src="images/slider/carousel/mwrp/mwrp-n4.png" alt="Magnolia Women's Recovery Program-links page" class="full-width">
 								</div>
 								<!-- / owl carousel item 3 -->
 								<!-- owl carousel item 4 -->
 								<div class="item">
-									<img src="images/slider/carousel/mwrp/mwrp-n5.png" alt="Magnolia Women's Recovery Program-treatments page" class="full-width"/>
+									<img src="images/slider/carousel/mwrp/mwrp-n5.png" alt="Magnolia Women's Recovery Program-treatments page" class="full-width">
 								</div>
 								<!-- / owl carousel item 4 -->
 
@@ -230,7 +235,7 @@
 							</p>
 							<ul class="list-unstyled border">
 								<li>
-									<strong>Client:</strong> MWRP Board of Founders
+									<strong>Client:</strong> Dr. Linda Stewart and MWRP Board of Founders
 								</li>
 								<li>
 									<strong>Technology:</strong> Responsive Web Design, Graphics (Photoshop and Illustrator), and Original Content Writing
@@ -238,45 +243,44 @@
 							</ul>
 						</div><!-- end col-med-4 -->
 					</div><!-- end row -->
-					<div class="row">
-
-					</div>
+					<div class="row"></div>
 				</div><!-- end container -->
 			</section>
 
 			<hr class="boxed"/>
-
+                  <!-- insights -->
 			<section class="pb pt"  id="articles">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<h2 class="headline-font-sm">Article Downloads<span>Please right-click on any of the following PDFs to download the article.</span></h2>
+							<h2 class="headline-font-sm">Article Downloads and Graphics Screenshots<span>Please right-click on any of the following PDFs to download the article.</span></h2>
 							
-							<p><div class="icon small">
-									<img src="images/team/icon-treatment.png" alt="image">&nbsp;<a href="articles/about-relapse.pdf">Article: About Relapse</a></div></p>
-							<p><div class="icon small">
-									<img src="images/team/icon-cancer.png" alt="image">&nbsp;<a href="articles/breast-cancer.pdf">Article: Breast Cancer</a></div></p>
-							<p><div class="icon small">
-									<img src="images/team/icon-diabetes.png" alt="image">&nbsp;<a href="articles/diabetes.pdf">Article: Diabetes</a></div></p>
-							<p><div class="icon small">
-									<img src="images/team/icon-fasd.png" alt="image">&nbsp;<a href="articles/fasd.pdf">Article: FASD</a></div></p>
-							<p><div class="icon small">
-									<img src="images/team/icon-sober.png" alt="image">&nbsp;<a href="articles/holidays-sober.pdf">Article: Staying Sober During Holidays</a></div></p>
-							<p><div class="icon small">
-									<img src="images/team/icon-brochure.png" alt="image">&nbsp;<a href="articles/brochure-outer.pdf">Brochure: Outer Page</a></div></p>
-							<p><div class="icon small">
-									<img src="images/team/icon-brochure.png" alt="image">&nbsp;<a href="articles/brochure-inner.pdf">Brochure: Inner Page</a></div></p>
-							<p><div class="icon small">
-									<img src="images/team/icon-blog.png" alt="image">&nbsp;<a href="articles/blog-page.pdf">Web Page: Blog</a></div></p>
-							<p><div class="icon small">
-									<img src="images/team/icon-news.png" alt="image">&nbsp;<a href="articles/news-page.pdf">Web Page: News</a></div></p>
-							
-
-							
+							<div class="icon small">
+									<img src="images/team/icon-treatment.png" alt="image">&nbsp;<a href="articles/about-relapse.pdf">Article: About Relapse</a></div>
+							<div class="icon small">
+									<img src="images/team/icon-cancer.png" alt="image">&nbsp;<a href="articles/breast-cancer.pdf">Article: Breast Cancer</a></div>
+						      <div class="icon small">
+									<img src="images/team/icon-diabetes.png" alt="image">&nbsp;<a href="articles/diabetes.pdf">Article: Diabetes</a></div>
+						      <div class="icon small">
+									<img src="images/team/icon-fasd.png" alt="image">&nbsp;<a href="articles/fasd.pdf">Article: FASD</a></div>
+							 <div class="icon small">
+									<img src="images/team/icon-sober.png" alt="image">&nbsp;<a href="articles/holidays-sober.pdf">Article: Staying Sober During Holidays</a></div>
+							 <div class="icon small">
+									<img src="images/team/icon-brochure.png" alt="image">&nbsp;<a href="articles/brochure-outer.pdf">Brochure: Outer Page</a></div>
+							<div class="icon small">
+									<img src="images/team/icon-brochure.png" alt="image">&nbsp;<a href="articles/brochure-inner.pdf">Brochure: Inner Page</a></div>
+							<div class="icon small">
+									<img src="images/team/icon-blog.png" alt="image">&nbsp;<a href="articles/blog-page.pdf">Web Page: Blog</a></div>
+							<div class="icon small">
+									<img src="images/team/icon-news.png" alt="image">&nbsp;<a href="articles/news-page.pdf">Web Page: News</a></div>	
 						</div>
+
+
 						<div class="col-md-6">
 							<h2 class="headline-font-sm">My Process for MWRP</h2>
-							<li>Interview Director to determine her priorities for the website, what style and what content should be included.</li>
+							  <ul>
+							<li>Interview Director to determine her priorities for the website, what style and what content should be included.
+							</li>
 							<li>Decide upon an hourly rate to do the work and write up a contract.
 							</li>
 							<li>Create a mockup of the home page; when approved, create a working version (Javascript included for slideshow and menu motion).
@@ -284,49 +288,48 @@
 							<li>Continue, page by page, to add graphics, content and some motion effects for visual interest.
 							<li>Begin researching and writing monthly articles in the Health section of the website.
 							</li>
-							<li>Work closely with Director and finish the website, personally host it for a number of months.</li>
-							
-						</div>
+							<li>Work closely with Director and finish the website, personally host it for a number of months.
+							</li>
+						</ul>
 					</div>
 				</div>
-			</section>
-			<hr class="boxed" />
-			<!-- works -->
+			</div>
+		</section>
+			
+			<!--/ insights -->
+
 
 			<!-- testimonial -->
-			<section  class="pt pb-small">
+			<section class="pt pb-medium mask opacity-5" style="background: url('images/home/techbg.jpg'); height: 100%; width: 100%;">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 heading">
-							<h2 class="headline-font">What the Client Had to Say...</h2>
+							<h2 class="h1 text-light headline-font-sm">What the Client Had to Say...</h2>
 						</div>
 					</div>
 				</div>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12">
-
-						<p>"Vickie R. is a detailed orientated worker. She designed an outstanding website for our organization that has resulted in positive feedback from all of our supporters. </p>
-						<p>Vickie...is thorough, organized and efficient. She has a very pleasant attitude a provides excellent customer service and a great eye for design.
+						<div class="col-md-12 text-light text-shadow-heavy">
+						<p class="text-ital">"Vickie R. is a detailed orientated worker. She designed an outstanding website for our organization that has resulted in positive feedback from all of our supporters. </p>
+						<p class="text-ital">Vickie...is thorough, organized and efficient. She has a very pleasant attitude a provides excellent customer service and a great eye for design.
 						</p>
 						
-						<p>Dr. Linda Stewart <br />
+						<p class="centerit">Dr. Linda Stewart <br />
 							Director,<br />
 							Magnolia Women's Recovery Program
 							</p>
-
-							</div>
 						</div>
 					</div>
 				</div>
-			</section>
-			<!-- end testimonial -->
-			<hr class="boxed" />
+			</section><!-- end testimonial -->
 
 
 			<!-- takeaways-->
 			<section class="pt-small pb-small">
+
 				<div class="container">
+
 					<div class="row">
 						<div class="col-md-12 mb-medium heading">
 							<h2 class="headline-font-sm">What I Learned From This Project</h2>
@@ -334,11 +337,11 @@
 					</div>
 
 					<div class="row">
-						<div class="col-md-12">
 
+						<div class="col-md-12">
 							<article class="feature-box media-left">
 								<div class="icon medium">
-									<img src="images/team/icon-writing.png" alt="image">
+									<img src="images/team/icon-writing.png" alt="decorative icon">
 								</div>
 								<div class="feature-box-content">
                                                  <h3>Writing Content at a Level That a Wide Range of Users Will Understand<br>
@@ -346,17 +349,15 @@
 									</h3>
 									<p>
 										This website would have users with vastly different needs, and different levels of reading comprehension. The content articles about health that I wrote had to fall somewhere in the middle when it came to comprehensibility. It was very important that I communicate the health risks of addiction and pregnancy to people who were currently using, and I had to keep the interest of potential donors and investors. And again, no one type of user was any more important than another. 
-									</p>
-									
+									</p>	
 								</div>
 							</article>
 						</div>
 
 						<div class="col-md-12">
-
 							<article class="feature-box media-left">
 								<div class="icon medium">
-									<img src="images/team/icon-smartphone.png" alt="image">
+									<img src="images/team/icon-smartphone.png" alt="decorative icon">
 								</div>
 								<div class="feature-box-content">
 									<h3>Designing for Different Devices<br>
@@ -364,9 +365,7 @@
 									</h3>
 									<p>
 										Responsive Web Design (RWD) had recently been introduced by Ethan Marcotte, and I thought this site would be a perfect candidate for being viewed at different screen sizes and under different conditions; maybe someone would want to read the articles while on a commute to work on a handheld device. At other times a full-desktop version would be used. I was very excited to jump onto the RWD bandwagon and this was one of the first sites  which I developed with that philosophy in mind.
-									</p>
-								
-									
+									</p>	
 								</div>
 							</article>
 						</div>
@@ -376,7 +375,7 @@
 						<div class="col-md-12">
 							<article class="feature-box media-left">
 								<div class="icon medium">
-									<img src="images/team/icon-paid.png" alt="image">
+									<img src="images/team/icon-paid.png" alt="decorative icon">
 								</div>
 									<div class="feature-box-content">
 									<h3>Don't Switch from Pro-Bono Work to Paid (if Possible)
@@ -389,67 +388,58 @@
 							</article>
 						</div>
 
+		
+					</div>
+				</div>
+			</section><!--/ end takeaways -->
+              </main><!-- / end main content -->
+
+	<!--footer-->
+		<footer class="dark-color" id="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<div class="footer-widget">
+							<h1 class="medium block text-light oswald">Comrie Consulting</h1>
+							<address>
+								<div class="pt">Las Vegas, NV | 702.350.0032 | <a class="white" href="mailto:info@comrieconsulting.com">info@comrieconsulting.com</a><br>
+								<br></div>
+							</address>
+							<p class="text-light">Copyright © 2017 All rights reserved.</p>
+							<ul class="social-icons main-color circle social-hover">
+								<li>
+									<a href="https://github.com/Vegasvikk" class="rss" title="github"><i class="icon-glyph-318"></i></a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/vrcomrie/" class="facebook" title="linkedin"><i class="icon-glyph-308"></i></a>
+								</li>
+								<li>
+									<a href="https://twitter.com/Vegasvikk2" title="twitter" class="twitter"><i class="icon-glyph-339"></i></a>
+								</li>
+								<li>
+									<a href="https://plus.google.com/+VickieComrie" title="gplus" class="gplus"><i class="icon-glyph-317"></i></a>
+								</li>
+							</ul> 
 						</div>
 					</div>
 				</div>
-			</section>
-			<!--/ end takeaways -->
-
-
-			<!-- footer -->
-		<footer id="main-footer" class="dark-color" style="background-image: url('images/home/techbg.jpg'); height: 100%; width: 100%; opacity: 100%; border: 2px solid red;">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-12 text-center">
-					<div class="footer-widget">
-						<h1 class="x-large block text-light footer-brand">Comrie Consulting</h1>
-						<address>
-							<h4 class="pb pt">
-								Las Vegas, NV | 702.350.0032 | <a class="white" href="mailto:info@comrieconsulting.com">info@comrieconsulting.com</a>
-							</p>
-						</address>
-						<ul class="social-icons dark-color circle">
-							<li><a href="https://github.com/Vegasvikk" class="rss circle" title="github"><i class="icon-glyph-318"></i></a></li>
-													<li><a href="https://twitter.com/Vegasvikk2" class="twitter circle" title="twitter"><i class="icon-glyph-339"></i></a></li>
-													<li><a href="https://plus.google.com/+VickieComrie" class="gplus circle" title="gplus"><i class="icon-glyph-317"></i></a></li>
-													<li><a href="https://www.linkedin.com/in/vrcomrie/" class="facebook circle" title="linkedin"><i class="icon-glyph-308"></i></a></li>
-						</ul> 
-					</div>
-				</div>
-
 			</div>
-		</div>
-
-		<div id="footer-rights">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<p>Copyright © 2017 <a href="https://www.comrieconsulting.com" target="blank">Comrie Consulting</a> / All rights reserved.</p>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</footer>
-		<!-- / footer -->
-	</div>
-	<!-- global wrapper -->
-	
+		
+		</footer><!--/ footer-->
+		</div><!-- global wrapper -->
 	<!-- End Document ================================================== -->
-
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script type="text/javascript" src="neko-framework/js/jquery/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="neko-framework/js/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
-
-	<!-- external framework plugins -->
-	<script type="application/javascript" src="neko-framework/external-plugins/external-plugins.min.js"></script>
-	<!-- neko framework script -->
-	<script type="text/javascript" src="neko-framework/js/neko-framework.js"></script>
-
-
-	<!-- neko custom script -->	
-	<script src="js/custom.js"></script>
-
+	<script src="js/jquery/jquery-2.1.4.min.js">
+	</script> 
+	<script src="js/jquery-ui/jquery-ui-1.8.23.custom.min.js">
+	</script> <!-- external framework plugins -->
+	 
+	<script src="external-plugins/external-plugins.min.js">
+	</script> <!--  framework script -->
+	 
+	<script src="js/framework.js">
+	</script> <!-- custom script --> 
+	<script src="js/custom.js">
+	</script>
 </body>
 </html>
