@@ -13,23 +13,25 @@
 	<meta content="Project in the portfolio of Vickie R. Comrie, MISM, Comrie Consulting" name="description">
 	<meta content="Vickie R. Comrie" name="author"><!-- Mobile Specific Metas ================================================== -->
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"><!-- CSS ================================================== -->
+	<!-- web font  -->
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"><!-- Neko framework  -->
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 	<link href="custom-icons/css/custom-icons.css" rel="stylesheet" type="text/css">
-	<link href="neko-framework/external-plugins/external-plugins.css" rel="stylesheet" type="text/css">
-	<link href="neko-framework/css/layout/neko-framework-layout.css" rel="stylesheet" type="text/css">
-	<link href="neko-framework/css/color/neko-framework-silver-expanded.css" id="color" rel="stylesheet" type="text/css"><!-- my overrides of this template -->
-	<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- Favicons ================================================== -->
+	<link href="css/external-plugins.css" rel="stylesheet" type="text/css">
+	<link href="css/layout/layout.css" rel="stylesheet" type="text/css">
+	<link href="css/color/silver-expanded.css" id="color" rel="stylesheet" type="text/css">
+	<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- my overrides of this template -->
+	<!-- Favicons ================================================== -->
 	<link href="images/favicon.ico" rel="shortcut icon">
 	<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 	<link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
 	<link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
 	<link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"><!-- <link rel="stylesheet" href="http://basehold.it/30"> -->
 
-	<script src="neko-framework/external-plugins/modernizr/modernizr.custom.js">
+	<script src="external-plugins/modernizr/modernizr.custom.js">
 	</script>
 </head>
 <body class="activate-appear-animation header-dark nav-style-1">
@@ -44,7 +46,7 @@
 						<!-- hamburger button -->
 						 <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <!-- / hamburger button -->
 						 <!-- Logo -->
-						 <a class="navbar-brand" href="index.html"><img alt="logo for Comrie Consulting" src="images/logo3.png">Comrie Consulting</a> <!-- /Logo -->
+						 <a class="navbar-brand" href="index.html">Comrie Consulting</a> <!-- /Logo -->
 					</div>
 					<div class="collapse navbar-collapse">
 						<!-- Main navigation -->
@@ -77,7 +79,18 @@
 										<a href="portfolio-project-lvp.html">Las Vegas Pics</a>
 									</li>
 									<li>
-										<a href="portfolio-project-mwrp.html">Magnolia Women's Recovery</a>
+										<a class="has-sub-menu" href="portfolio-project-mwrp.html">Magnolia Women's Recovery</a>
+										<ul class="sub-menu">
+											<li>
+												<a href="portfolio-project-mwrp.html#website">Website</a>
+											</li>
+											<li>
+												<a href="portfolio-project-mwrp.html#brochure">Brochure</a>
+											</li>
+											<li>
+												<a href="portfolio-project-mwrp.html#articles">Articles</a>
+											</li>
+										</ul>
 									</li>
 									<li>
 										<a href="#" style="background: black; color: white;">Chatalog</a>
@@ -100,11 +113,11 @@
 		</header><!-- / header -->
 		<!-- content -->
 		<main id="content">
-			<header class="page-header">
+			<header class="page-header blue-background">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-9">
-							<h1>Chatalog<small>In Front End Development/ Working With a Remote Team</small></h1>
+							<h1 class="text-light text-shadow">Chatalog<small>In Front End Development/ Working With a Remote Team</small></h1>
 						</div><!-- navigation -->
 						<div class="col-md-3 text-right">
 							<a href="index.html#pastworks"><i class="icon-glyph-121 light-color circle"></i></a> <a href="portfolio-project-mwrp.html"><i class="icon-glyph-41 light-color circle"></i></a> <a href="portfolio-project-git.html"><i class="icon-glyph-40 light-color circle"></i></a>
@@ -129,7 +142,7 @@
 						</div><!-- end col-med-8 -->
 						<div class="col-md-4">
 							<h3 class="headline-font-sm">Working in a Remote Team for a Startup</h3>
-							<p>Natalie and Alex Gonzalez flew out from their home in New York to Las Vegas, hoping to relocate their startup here. I was really impressed by these two 20-somethings who had already established themselves as entrepreneurs by founding two startups previously. Their current product, Chatalog, is a shopping comparison app with chat capabilities. I was hired as front-end developer for a period of time because I completing a coding challenge for Natalie and Alex by creating a responsive front page from a Photoshop comp. Work slowed down after the initial app was created and I moved on, but all in all, it was a wonderful experience working with some really smart, motivated people.</p>
+							<p>Natalie and Alex Gonzalez flew out from their home in New York to Las Vegas, hoping to relocate their startup here. I was really impressed by these two 20-somethings who had already established themselves as entrepreneurs by their previous founding of two successful startups. Their current product, Chatalog, is a shopping comparison app with chat capabilities. I was hired as front-end developer for a period of time because I completing a coding challenge for Natalie and Alex by creating a responsive front page from a Photoshop comp. Work slowed down after the initial app was created and I moved on, but all in all, it was a wonderful experience working with some really smart, motivated people.</p>
 							<ul class="list-unstyled border">
 								<li><strong>Employers:</strong> Alex and Natalie Gonzalez</li>
 								<li><strong>Technology:</strong> Visual Studio, Sublime Text, Knockout JS, HTML 5, CSS 3, Responsive Design, Basecamp, GitHub</li>
@@ -144,16 +157,16 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<h2 class="headline-font-sm">I Really Like Working Remotely</h2>This was not my first time working remotely. I finished my BA and took my entire MISM online. I wrote the thesis for our group of three students; the others lived in California and we managed to crank out over 100 pages in about 6 weeks, and got an A in the class. I was assigned most of the writing duties as my BA was in English and I like to write. I've worked remotely on several freelance web design projects under Indico Web Development--Magnolia Women's Recovery Program (CA), Infant Swimming (AZ), Arizona Title and Escrow (AZ)... I've also helped Dr. Linda Stewart edit her PhD Dissertation and helped Jaime Arroyo with his thesis project for his MBA. I think that if more companies allowed remote workers, people could live in currenly underemployed areas such as the Midwest, and housing rates in Silicon Valley might go down. There are a lot of plusses to remote work.
+							<h2 class="headline-font-sm">I Really Like Working Remotely</h2>This was not my first time working remotely. I finished my BA and took my entire MISM online. I wrote the MISM thesis for our group of three students (the others lived in California); we managed to crank out over 100 pages in about 6 weeks, and got an A in the class. I was assigned most of the writing duties as my BA was in English and I like to write. I've worked remotely on several freelance web design projects under Indico Web Development--Magnolia Women's Recovery Program (CA), Infant Swimming (AZ), Arizona Title and Escrow (AZ)... I've also helped Dr. Linda Stewart with her PhD Dissertation and helped Jaime Arroyo with his thesis for his MBA. I think that if more companies allowed remote workers, people could live in currenly underemployed areas such as the Midwest, and housing rates in Silicon Valley might go down. There are a lot of plusses to remote work.
 							<p></p>
-							<p>I had to be more of a Jack-of-all-trades on this project. I learned some Knockout JS, which we used as middleware. I worked with Visual Studio for the first time. I learned how to use Git and GitHub on a daily basis. I realized I'm pretty quick at learning new things, which I had to be in a time-sensitive position such as this one--deadlines HAD to be met or there would be no product to show initial investors.</p>
+							
 						</div>
 						<div class="col-md-6">
 							<h2 class="headline-font-sm">My Process for Chatalog</h2>
 							<ul>
 								<li>Talk on Skype and work in person with business owners to determine his priorities for the website and what it needs to be fully functional.</li>
 								<li>Set up new accounts on GitHub and Basecamp; get acclimated with Visual Studio and working with the backend developer, who was a Microsoft guy, while I consider myself more of an open source gal.</li>
-								<li>Keep communication lines open continuously as small and large changes were made to the design and the functionality of the product.</li>
+								<li>Keep communication lines open continuously as small and large changes were made to the design and the functionality of the product on a daily basis.</li>
 								<li>Write clean, efficient code to provide a responsive design after receiving Photoshop mockups from other graphic designers.</li>
 								<li>Work closely with the backend developer on Basecamp; upload daily work to GitHub.</li>
 							</ul>
@@ -161,32 +174,30 @@
 					</div>
 				</div>
 			</section>
-			<hr class="boxed">
+			
 			<!-- works -->
 			<!-- testimonial -->
-			<section class="pt pb-small">
+			<section class="pt pb-small mask opacity-6" style="background: url('images/test-bg/test-bg2.png'); height: 100%; width: 100%">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 heading">
-							<h2 class="headline-font">What my Employer Had to Say...</h2>
+							<h2 class="h1 text-light headline-font-sm">What my Employer Had to Say...</h2>
 						</div>
 					</div>
 				</div>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12">
-							<p>Vickie is a team player, has a strong work ethic and is deeply passionate about delivering quality front-end work.<br>
+						<div class="col-md-12 text-light text-shadow-heavy centerit">
+							<p class="text-ital">Vickie is a team player, has a strong work ethic and is deeply passionate about delivering quality front-end work.<br>
 							She also is extremely motivated to learn new technologies and continue to add to her overall skill set.</p>
-							<p>Natalie Gonzalez,<br>
+							<p class="text-ital">Natalie Gonzalez,<br>
 							Co-Founder,<br>
-							<a href="">Chatalog</a></p>
+							Chatalog</p>
 						</div>
 					</div>
 				</div>
-			</section>
-		</main>
-	</div><!-- end testimonial -->
-	<hr class="boxed">
+			</section><!-- end testimonial -->
+	
 	<!-- takeaways-->
 	<section class="pt-small pb-small">
 		<div class="container">
@@ -202,7 +213,7 @@
 						<div class="feature-box-content">
 							<h3>Time Management<br>
 							<small>Personal Development</small></h3>
-							<p>Working for a startup, the day started at 7AM, as I was on Pacific Standard Time, the Gonzalez's were on Eastern Standard Time, and the backend developer was on Central Time. The work I did took anywhere from 8 to 14 hours a day. However, working on something this interesting and stimulating made the time fly by for me, even on very long days.</p>
+							<p>Working for a startup, the day started at 7AM, as I was on Pacific Standard Time, the Gonzalez's were on Eastern Standard Time, and the backend developer was on Central Time. The work I did took anywhere from 8 to 14 hours a day. However, working on something this interesting and stimulating made the time fly by for me, even on the very long days.</p>
 						</div>
 					</article>
 				</div>
@@ -212,7 +223,7 @@
 						<div class="feature-box-content">
 							<h3>New Technology<br>
 							<small>Visual Studio, Knockout JS, GitHub</small></h3>
-							<p>I had a lot of new (to me) technology thrown at me and was expected to get up to speed in a very short period of time. I also worked directly under a backend developer who was completely used to Microsoft products and coding, when I was absolutely not. It worked out in the long run for me because the next year I took a contract job using Visual Studio to write T-SQL and I felt more comfortable this time around.</p>
+							<p>I had a lot of new (to me) technology thrown at me and was expected to get up to speed in a very short period of time. I also worked directly under a backend developer who was completely used to Microsoft products and coding, when I was absolutely not. It worked out in the long run for me because the next year I took a contract job using Visual Studio to write T-SQL, which I felt more comfortable the next time around.</p>
 						</div>
 					</article>
 				</div>
@@ -222,7 +233,7 @@
 						<div class="feature-box-content">
 							<h3>Getting Better at Learning New Stuff Fast<br>
 							<small>Working at a Startup</small></h3>
-							<p>I realized I enjoyed the rush of working for a startup, but there was a lot of pressure to perform and my skillset was a little short in some areas--especially Javascript. The time I didn't spend working I spent learning online. I also got much better with Responsive Design--designing for mobile phones, tablets, etc. because a lot of people would be accessing Chatalog with these devices and the site had to look great small, medium and large.</p>
+							<p>I realized I enjoyed the rush of working for a startup, but there was a lot of pressure to perform and my skillset was a little short in some areas--especially in Javascript. The time I didn't spend working I spent learning online. I also got much better with Responsive Design--designing for mobile phones, tablets, etc. because a lot of people would be accessing Chatalog with these devices and the site had to look great at any size.</p>
 						</div>
 					</article>
 				</div>
@@ -241,59 +252,51 @@
 			</div>
 		</div>
 	</section><!--/ end takeaways -->
-	<!-- / content -->
+		</main><!-- / content -->
 	<!-- footer -->
 	<footer class="dark-color" id="main-footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center">
 					<div class="footer-widget">
-						<h1 class="x-large block text-light footer-brand">Comrie Consulting</h1>
+						<h1 class="medium block text-light oswald">Comrie Consulting</h1>
 						<address>
 							<div class="pb pt">
 								Las Vegas, NV | 702.350.0032 | <a class="white" href="mailto:info@comrieconsulting.com">info@comrieconsulting.com</a>
 							</div>
 						</address>
-						<ul class="social-icons dark-color circle">
-							<li>
-								<a class="rss circle" href="https://github.com/Vegasvikk" title="github"><i class="icon-glyph-318"></i></a>
-							</li>
-							<li>
-								<a class="twitter circle" href="https://twitter.com/Vegasvikk2" title="twitter"><i class="icon-glyph-339"></i></a>
-							</li>
-							<li>
-								<a class="gplus circle" href="https://plus.google.com/+VickieComrie" title="gplus"><i class="icon-glyph-317"></i></a>
-							</li>
-							<li>
-								<a class="facebook circle" href="https://www.linkedin.com/in/vrcomrie/" title="linkedin"><i class="icon-glyph-308"></i></a>
-							</li>
-						</ul>
+						<ul class="social-icons main-color circle social-hover">
+								<li>
+									<a href="https://github.com/Vegasvikk" class="rss" title="github"><i class="icon-glyph-318"></i></a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/vrcomrie/" class="facebook" title="linkedin"><i class="icon-glyph-308"></i></a>
+								</li>
+								<li>
+									<a href="https://twitter.com/Vegasvikk2" title="twitter" class="twitter"><i class="icon-glyph-339"></i></a>
+								</li>
+								<li>
+									<a href="https://plus.google.com/+VickieComrie" title="gplus" class="gplus"><i class="icon-glyph-317"></i></a>
+								</li>
+							</ul> 
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="footer-rights">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<p>Copyright © 2017 <a href="https://www.comrieconsulting.com" target="blank">Comrie Consulting</a> / All rights reserved.</p>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 	</footer><!-- / footer -->
-	<!-- global wrapper -->
+	</div><!-- global wrapper -->
 	<!-- End Document ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="neko-framework/js/jquery/jquery-2.1.4.min.js" type="text/javascript">
+	<script src="js/jquery/jquery-2.1.4.min.js">
 	</script> 
-	<script src="neko-framework/js/jquery-ui/jquery-ui-1.8.23.custom.min.js" type="text/javascript">
+	<script src="js/jquery-ui/jquery-ui-1.8.23.custom.min.js">
 	</script> <!-- external framework plugins -->
 	 
-	<script src="neko-framework/external-plugins/external-plugins.min.js" type="application/javascript">
+	<script src="external-plugins/external-plugins.min.js">
 	</script> <!-- neko framework script -->
 	 
-	<script src="neko-framework/js/neko-framework.js" type="text/javascript">
+	<script src="js/framework.js">
 	</script> <!-- neko custom script --> 
 	<script src="js/custom.js">
 	</script>
