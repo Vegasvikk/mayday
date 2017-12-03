@@ -18,12 +18,14 @@
 	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"><!-- Neko framework  -->
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 	<link href="custom-icons/css/custom-icons.css" rel="stylesheet" type="text/css">
-	<link href="neko-framework/external-plugins/external-plugins.css" rel="stylesheet" type="text/css">
-	<link href="neko-framework/css/layout/neko-framework-layout.css" rel="stylesheet" type="text/css">
-	<link href="neko-framework/css/color/neko-framework-silver-expanded.css" id="color" rel="stylesheet" type="text/css"><!-- my overrides of this template -->
-	<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- Favicons ================================================== -->
+	<link href="css/external-plugins.css" rel="stylesheet" type="text/css">
+	<link href="css/layout/layout.css" rel="stylesheet" type="text/css">
+	<link href="css/color/silver-expanded.css" id="color" rel="stylesheet" type="text/css">
+	<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- my overrides of this template -->
+
+	<!-- Favicons ================================================== -->
 	<link href="images/favicon.ico" rel="shortcut icon">
 	<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 	<link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
@@ -31,8 +33,9 @@
 	<link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"><!-- Scripts
     ===================================================== -->
 
-	<script src="neko-framework/external-plugins/modernizr/modernizr.custom.js">
+	<script src="external-plugins/modernizr/modernizr.custom.js">
 	</script>
+
 </head>
 <body class="activate-appear-animation header-transparent header-dark nav-style-1" data-offset="90" data-spy="scroll" data-target=".menu-header">
 	<div class="little-neko-preloader little-neko-sk-cube-grid little-neko-preloader-centered" data-logo="images/cc1.svg"></div><!-- global-wrapper -->
@@ -45,7 +48,7 @@
 						<!-- hamburger button -->
 						 <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <!-- / hamburger button -->
 						 <!-- Logo -->
-						 <a class="navbar-brand homepage" href="index.html"><img alt="logo for Comrie Consulting" src="images/logo3.png">Comrie Consulting</a> <!-- /Logo -->
+						 <a class="navbar-brand homepage" href="index.html"><!--<img alt="logo for Comrie Consulting" src="images/logo3.png">-->Comrie Consulting</a> <!-- /Logo -->
 					</div>
 					<div class="collapse navbar-collapse">
 						<!-- Main navigation -->
@@ -69,7 +72,7 @@
 										<a href="portfolio-project-azte.html">Arizona Title and Escrow</a>
 									</li>
 									<li>
-										<a href="portfolio-project-graph.html">Graphometrics</a>
+										<a href="portfolio-project-gr.html">Graphometrics</a>
 									</li>
 									<li>
 										<a href="portfolio-project-lvp.html">Las Vegas Pics</a>
@@ -127,7 +130,7 @@
 								</div>
 								<h2 class="headline-font">My Work</h2>
 								<p class="lead">My projects increase market share, brand awareness and profitability for your business.</p>
-								<p class="lead">My work runs the gamut from web design strategy and user experience interface best practices to technical and content writing with a sprinkling of SEO and marketing on top.</p>
+								<p class="lead">My work runs the gamut from technical and content writing to web design strategy and user experience interface best practices  with a sprinkling of SEO and marketing on top.</p>
 							</div>
 							<p class="lead">Our finished project &#40;because every project is a joint collaboration between the client, you, and consultant, me&#41; will be made to render beautifully all popular browsers and devices. I can also code for legacy IE products. I want our working experience to be a pleasure above all else.<br></p><img alt="title" class="responsive" src="images/theme-pics/mainpic2.png">
 							<div class="page-header center">
@@ -150,23 +153,24 @@
 						<aside class="col-md-4 home-sidebar" id="section-over">
 							<a class="scroll-link btn-news text-shadow" href="#news" id="news"><i class="icon-glyph-211"></i><span>Latest news</span></a>
 							<div class="box no-pb white">
-								<article>
-									<img alt="title" class="responsive" src="images/news/news-5.jpg">
-									<h3 class="mt-small headline-font-sm">User Experience</h3>
-									<p class="lead-sm">Besides my 17 years&#39; working in web, brochure and other design projects, I&#39;ve upped my learning recently by enrolling in a MicroMaster&#39;s Program in UX/UI, offered by the University of Michigan and edx.org.</p>
-								</article>
-								<article>
-									<img alt="title" class="responsive" src="images/news/news-4.jpg">
+							      <article>
+									<img class="responsive" src="images/news/news-4.jpg" alt="decorative image for writing section">
 									<h3 class="mt-small headline-font-sm">I&#39;m Writing Again</h3>
-									<p class="lead-sm">One of my greatest pleasures is breaking down difficult technical concepts into simple, regular language. I despair when people struggle over Help Sections or manuals. And I love to write Content Articles on a wide variety of subjects. Pick a topic. I&#39;ll write your story.</p>
+									<p class="lead-sm">One of my greatest pleasures is breaking down difficult technical concepts into simple, regular language. I despair when people struggle over Help Sections or manuals. I'm currently taking certification classes in writing technical documentation for APIs. And I love to write Content Articles on a wide variety of subjects. Pick a topic. I&#39;ll write your story.</p>
 								</article>
 								<article>
-									<img alt="title" class="responsive" src="images/news/news-2.jpg">
+									<img class="responsive" src="images/news/news-5.jpg" alt="decorative image for user experience section">
+									<h3 class="mt-small headline-font-sm">User Experience</h3>
+									<p class="lead-sm">Besides my 17 years&#39; working in web, brochure and other design projects, I&#39;ve upped my learning recently by taking online classes in UX/UI, offered by the University of Michigan (and edx.org) and The Interaction Design Foundation.</p>
+								</article>
+								
+								<article>
+									<img class="responsive" src="images/news/news-2.jpg" alt="decorative image for accessibility section">
 									<h3 class="mt-small headline-font-sm">Accessibility</h3>
 									<p class="lead-sm">No one should be excluded from a pleasureable and easy experience on the Web. I can help make your business more user-friendly by including aspects of accessibility to accomodate almost any disability.</p>
 								</article>
 								<article>
-									<img alt="title" class="responsive" src="images/news/news-1.jpg">
+									<img class="responsive" src="images/news/news-1.jpg" alt="decorative image for education section">
 									<h3 class="mt-small headline-font-sm">Online and Live Educational Strategy</h3>
 									<p class="lead-sm">I feel education is a life-long gift to be fully taken advantage of. I belong to several professional groups and lead other developers and designers in virtual studies. I can help your team find the best tools for the Web job and I can teach them to use new technologies without fear of failure.</p>
 								</article>
@@ -175,6 +179,7 @@
 					</div>
 				</div>
 			</section><!-- testimonials -->
+
 			<!-- slider -->
 			<section id="slider">
 				<div class="owl-carousel neko-data-owl neko-owl-theme-1 dark-color" data-neko_items="1" data-neko_navigation="true" data-neko_paginationnumbers="false" data-neko_singleitem="true" data-neko_transitionstyle="fade">
@@ -184,16 +189,16 @@
 						<div class="caption-wrapper">
 							<div class="caption">
 								<div class="caption-content-position text-center v-middle text-light">
-									<img alt="Jonathan Hinshaw" class="avatar thumbnail x-large circle mb-small hidden-xs" data-neko_animation="fadeInDown" src="images/clients/avatar-6.jpg">
-									<div class="hidden-xs" data-neko_animation="fadeIn">
+									<img alt="Jonathan Hinshaw" class="avatar thumbnail x-large circle mb-small" data-neko_animation="fadeInDown" src="images/clients/avatar-6.jpg">
+									<div data-neko_animation="fadeIn">
 										<p class="no-mb"><strong>Jonathan Hinshaw</strong> CEO, <a href="" style="color: #fff; font-weight: bold;">Ebway Creative Solutions Inc.</a></p>
 									</div>
-									<h3 class="text-no-format text-ital" data-neko_animation="fadeInUp">With her background in programming and development, Vickie understands<br>
-									the bigger picture and what it takes to bridge the gap between<br>
-									business and technology in order to bring a company&#39;s digital assets to life.<br>
-									This makes her the perfect choice for strategic web application development projects...<br>
-									Vickie has the skills and expertise to bring your vision to life.<br>
-									And, her honor and integrity are second to none.</h3>
+									<p class="text-ital scope text-shadow-heavy" data-neko_animation="fadeInUp">With her background in programming and development, Vickie understands
+									the bigger picture and what it takes to bridge the gap between
+									business and technology in order to bring a company&#39;s digital assets to life.
+									This makes her the perfect choice for strategic web application development projects...
+									Vickie has the skills and expertise to bring your vision to life.
+									And, her honor and integrity are second to none.</p>
 								</div>
 							</div>
 						</div>
@@ -204,13 +209,13 @@
 						<div class="caption-wrapper">
 							<div class="caption">
 								<div class="caption-content-position text-center v-middle text-light">
-									<img alt="Gene Babon" class="avatar thumbnail x-large circle mb-small hidden-xs" data-neko_animation="fadeInDown" src="images/clients/avatar-7.jpg">
-									<div class="hidden-xs" data-neko_animation="fadeIn">
+									<img alt="Gene Babon" class="avatar thumbnail x-large circle mb-small" data-neko_animation="fadeInDown" src="images/clients/avatar-7.jpg">
+									<div data-neko_animation="fadeIn">
 										<p class="no-mb"><strong>Gene Babon</strong> Leader, Boston PHP and East Boston Tech Meetup</p>
 									</div>
-									<h3 class="text-no-format text-ital" data-neko_animation="fadeInUp">Vickie is self-motivated, eager to learn and enjoys collaborating.<br>
-									I'm glad Vickie is on my team, and you will be too, if you are a manager<br>
-									looking to hire for both technical competence and team collaboration.</h3>
+									<p class="text-ital scope text-shadow-heavy" data-neko_animation="fadeInUp">Vickie is self-motivated, eager to learn and enjoys collaborating.
+									I'm glad Vickie is on my team, and you will be too, if you are a manager
+									looking to hire for both technical competence and team collaboration.</p>
 								</div>
 							</div>
 						</div>
@@ -221,14 +226,14 @@
 						<div class="caption-wrapper">
 							<div class="caption">
 								<div class="caption-content-position text-center v-middle text-light">
-									<img alt="Natalie Gonzalez" class="avatar thumbnail x-large circle mb-small hidden-xs" data-neko_animation="fadeInDown" src="images/clients/avatar-3.jpg">
-									<div class="hidden-xs" data-neko_animation="fadeIn">
+									<img alt="Natalie Gonzalez" class="avatar thumbnail x-large circle mb-small" data-neko_animation="fadeInDown" src="images/clients/avatar-3.jpg">
+									<div data-neko_animation="fadeIn">
 										<p class="no-mb"><strong>Natalie Gonzalez</strong> Co-founder of Chatalog</p>
 									</div>
-									<h3 class="text-no-format text-ital" data-neko_animation="fadeInUp">Vickie is a team player, has a strong work ethic and<br>
-									is deeply passionate about delivering quality front-end work.<br>
-									She also is extremely motivated to learn new technologies and<br>
-									continue to add to her overall skill set.</h3>
+									<p class="text-ital scope text-shadow-heavy" data-neko_animation="fadeInUp">Vickie is a team player, has a strong work ethic and
+									is deeply passionate about delivering quality front-end work.
+									She also is extremely motivated to learn new technologies and
+									continue to add to her overall skill set.</p>
 								</div>
 							</div>
 						</div>
@@ -239,16 +244,16 @@
 						<div class="caption-wrapper">
 							<div class="caption">
 								<div class="caption-content-position text-center v-middle text-light">
-									<img alt="Jaime Arroyo" class="avatar thumbnail x-large circle mb-small hidden-xs" data-neko_animation="fadeInDown" src="images/clients/avatar-4.jpg">
-									<div class="hidden-xs" data-neko_animation="fadeIn">
+									<img alt="Jaime Arroyo" class="avatar thumbnail x-large circle mb-small" data-neko_animation="fadeInDown" src="images/clients/avatar-4.jpg">
+									<div data-neko_animation="fadeIn">
 										<p class="no-mb"><strong>Jaime Arroyo,</strong> PMP,MISM,MBA<br>
 										Senior Level IT Ops and PM, Alcorn</p>
 									</div>
-									<h3 class="text-no-format text-ital" data-neko_animation="fadeInUp">Vickie is a professional, senior technical writer of the highest competence,<br>
-									who precisely researches, formats, edits and proofs her work.<br>
-									I&#39;ve received several compliments from customers who rely on Vickie&#39;s user<br>
-									and technical documentation. Management and employees in technical support,<br>
-									engineering, technical training and other departments praise her work.</h3>
+									<p class="text-ital scope text-shadow-heavy" data-neko_animation="fadeInUp">Vickie is a professional, senior technical writer of the highest competence,
+									who precisely researches, formats, edits and proofs her work.
+									I&#39;ve received several compliments from customers who rely on Vickie&#39;s user
+									and technical documentation. Management and employees in technical support,
+									engineering, technical training and other departments praise her work.</p>
 								</div>
 							</div>
 						</div>
@@ -259,15 +264,15 @@
 						<div class="caption-wrapper">
 							<div class="caption">
 								<div class="caption-content-position text-center v-middle text-light">
-									<img alt="Dr. Linda Stewart" class="avatar thumbnail x-large circle mb-small hidden-xs" data-neko_animation="fadeInDown" src="images/clients/avatar-5.jpg">
-									<div class="hidden-xs" data-neko_animation="fadeIn">
-										<p class="no-mb"><strong>Dr. Linda Stewart</strong> Founder, MWRP</p>
+									<img alt="Dr. Linda Stewart" class="avatar thumbnail x-large circle mb-small" data-neko_animation="fadeInDown" src="images/clients/avatar-5.jpg">
+									<div data-neko_animation="fadeIn">
+										<p class="mb-small"><strong>Dr. Linda Stewart</strong> Founder, MWRP</p>
 									</div>
-									<h3 class="text-no-format text-ital" data-neko_animation="fadeInUp">Vickie R. is a detailed orientated worker. She designed an outstanding<br>
-									website for our organization that has resulted in positive feedback<br>
-									from all of our supporters. Vickie...is thorough, organized and efficient.<br>
-									She has a very pleasant attitude a provides excellent customer<br>
-									service and a great eye for design.</h3>
+									<p class="text-ital scope text-shadow-heavy" data-neko_animation="fadeInUp">Vickie R. is a detailed orientated worker. She designed an outstanding 
+									website for our organization that has resulted in positive feedback 
+									from all of our supporters. Vickie...is thorough, organized and efficient. 
+									She has a very pleasant attitude a provides excellent customer 
+									service and a great eye for design.</p>
 								</div>
 							</div>
 						</div>
@@ -278,16 +283,16 @@
 						<div class="caption-wrapper">
 							<div class="caption">
 								<div class="caption-content-position text-center v-middle text-light">
-									<img alt="client pic" class="avatar thumbnail x-large circle mb-small hidden-xs" data-neko_animation="fadeInDown" src="images/clients/avatar-1.jpg">
-									<div class="hidden-xs" data-neko_animation="fadeIn">
-										<p class="no-mb"><strong>Lisa Jeremiah</strong> President and CEO, MediPx</p>
+									<img alt="client pic" class="avatar thumbnail x-large circle mb-small" data-neko_animation="fadeInDown" src="images/clients/avatar-1.jpg">
+									<div data-neko_animation="fadeIn">
+										<p class="mb-small"><strong>Lisa Jeremiah</strong> President and CEO, MediPx</p>
 									</div>
-									<h3 class="text-no-format text-ital" data-neko_animation="fadeInUp">Vickie is very insightful, and has a keen eye for details.<br>
-									She provided me with an expert analysis of our company website,<br>
-									and located issues that were preventing me from maximizing our traffic.<br>
-									Vickie identified points of improvement, and gave us tips to fix them.<br>
-									I would recommend Vickie to anyone that needs an unbiased assessment<br>
-									of their company’s website.</h3>
+									<p class="text-ital scope text-shadow-heavy" data-neko_animation="fadeInUp">Vickie is very insightful, and has a keen eye for details. 
+									She provided me with an expert analysis of our company website, 
+									and located issues that were preventing me from maximizing our traffic. 
+									Vickie identified points of improvement, and gave us tips to fix them. 
+									I would recommend Vickie to anyone that needs an unbiased assessment 
+									of their company’s website.</p>
 								</div>
 							</div>
 						</div>
@@ -410,7 +415,7 @@
 									<a class="btn default large" href="#contact" title="">702-350-0032</a>
 								</div>
 								<div class="cta-box-btn" data-nekoanim="fadeInDown" data-nekodelay="200">
-									<a class="btn default large" href="docs/resume-VRComrie-MISM-Sept2017.pdf" title="Download my most recent resume">Download My Resume</a>
+									<a class="btn default large" href="docs/resume_VRComrieMISM_dec2017.pdf" title="Download my most recent resume">Download My Resume</a>
 								</div>
 							</div>
 						</div>
@@ -418,14 +423,14 @@
 				</div>
 			</section><!-- / Call to action -->
 			<!-- past works small img -->
-			<section class="pt-llarge pb-large rollover effect-subtle" id="pastworks">
+			<section class="pt-medium pb-medium rollover effect-subtle" id="pastworks">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 heading">
-							<h2 class="headline-font-sm">Past Works<span>Some of the projects I&#39;ve done...</span></h2>
+							<h2 class="headline-font-sm">Past Works<span>Some of the projects I've done...</span></h2>
 						</div>
 					</div>
-					<p class="pb-small">My work has been a journey that has lasted almost two decades; it&#39;s a story in itself. Everything I&#39;ve learned up to now has shaped me to be proficient in a wide variety of skills. Over the years, I&#39;ve become extremely adept at picking up new technologies, but honestly, I&#39;m most proud of my soft skills&mdash;being empathetic to my co-workers and clients, and having the wisdom to know when to act, when to talk, and when to listen. Now my mind is open to all sorts of employment opportunities and I am so excited to be a part of your team!</p>
+					<p class="pb-small">My work has been a journey that has lasted almost two decades; it's a story in itself. Everything I've learned up to now has shaped me to be proficient in a wide variety of skills. Over the years, I've become extremely adept at picking up new technologies, but honestly, I'm most proud of my soft skills&mdash;being empathetic to my co-workers and clients, and having the wisdom to know when to act, when to talk, and when to listen. Now my mind is open to all sorts of employment opportunities and I am so excited to be a part of your team!</p>
 				</div>
 				<div class="container">
 					<div class="row">
@@ -436,7 +441,7 @@
 							<p>One of my first paid projects, circa 2001, was to develop this real estate project for an entrepreneur. I learned Flash for this gig while designing with a Southwest motif to create an attractive, enticing and market-ready user interface.</p>
 						</div><!--item 2-->
 						<div class="col-lg-4 col-sm-6 text-left">
-							<a href="portfolio-project-graph.html"><img alt="Graphometrics Handwriting Analysis Website thumbnail" class="img-thumbnail focus" src="images/portfolio/thumbs/6.jpg">
+							<a href="portfolio-project-gr.html"><img alt="Graphometrics Handwriting Analysis Website thumbnail" class="img-thumbnail focus" src="images/portfolio/thumbs/6.jpg">
 							<h3>Graphometrics <small>Creating a Small Business</small></h3></a>
 							<p>From the graphics and web design to the writing, visiting the SBA for a consult, and even getting certified as a handwriting analyst&mdash;I was 100 percent involved in every aspect of this project, nursing it into fruition before turning it over to a friend.</p>
 						</div><!--item 3-->
@@ -505,57 +510,102 @@
 				</section>
 			</section><!--contact -->
 		</main><!--/content -->
-		<!--footer-->
-		<footer class="dark-color" id="main-footer">
+			<!-- footer -->
+		<footer id="main-footer" class="dark-color">
+
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 text-center">
-						<div class="footer-widget">
-							<h1 class="x-large block text-light footer-brand">Comrie Consulting</h1>
-							<address>
-								<div class="pb pt">Las Vegas, NV | 702.350.0032 | <a class="white" href="mailto:info@comrieconsulting.com">info@comrieconsulting.com</a><br>
-								<br></div>
-							</address>
-							<ul class="social-icons dark-color circle">
+
+					<div class="col-md-3 col-sm-6">
+						<div class="footer-widget clearfix">
+
+							<h3>Continuing Education Certificates</h3>
+							<ul class="list-unstyled works-list">
 								<li>
-									<a class="rss circle" href="https://github.com/Vegasvikk" title="github"><i class="icon-glyph-318"></i></a>
+									<a href="images/certs/Stanford-ScienceWriting.pdf" class="certs" title="Science Writing certificate"><img src="images/theme-pics/works/works2.jpg" alt="image representing a certificate"></a>
 								</li>
 								<li>
-									<a class="twitter circle" href="https://twitter.com/Vegasvikk2" title="twitter"><i class="icon-glyph-339"></i></a>
+									<a href="images/certs/CustomerAnalytics_Coursera.pdf" class="certs" title="Customer Analytics certificate"><img src="images/theme-pics/works/works1.jpg" alt="image representing a certificate"></a>
 								</li>
 								<li>
-									<a class="gplus circle" href="https://plus.google.com/+VickieComrie" title="gplus"><i class="icon-glyph-317"></i></a>
+									<a href="images/certs/DataScientistsToolbox_Coursera.pdf" class="certs" title="Data Scientists Toolbox certificate"><img src="images/theme-pics/works/works3.jpg" alt="image representing a certificate"></a>
 								</li>
 								<li>
-									<a class="facebook circle" href="https://www.linkedin.com/in/vrcomrie/" title="linkedin"><i class="icon-glyph-308"></i></a>
+									<a href="images/certs/CommunicationSkills_edx.pdf" class="certs" title="Communication Skills certificate"><img src="images/theme-pics/works/works4.jpg" alt="image representing a certificate"></a>
+								</li>
+								<li>
+									<a href="images/certs/IntroductionToUserExperience_edx.pdf" class="certs" title="Introduction To User Experience certificate"><img src="images/theme-pics/works/works5.jpg" alt="image representing a certificate"></a>
+								</li>
+								<li>
+									<a href="images/certs/PrinciplesOfDesigningForHumans_edx.pdf" class="certs" title="Principles Of Designing For Humans certificate"><img src="images/theme-pics/works/works6.jpg" alt="image representing a certificate"></a>
 								</li>
 							</ul>
 						</div>
+
 					</div>
-				</div>
-			</div>
-			<div id="footer-rights">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<p>Copyright © 2017 <a href="https://www.comrieconsulting.com" target="blank">Comrie Consulting</a> / All rights reserved.</p>
+
+					
+
+					<div class="col-md-5 col-sm-6 centerit">
+						<div class="footer-widget centerit">
+
+							<h3>Comrie Consulting</h3>
+							
+							<ul class="social-icons main-color circle social-hover">
+								<li>
+									<a href="https://github.com/Vegasvikk" class="rss" title="github"><i class="icon-glyph-318"></i></a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/vrcomrie/" class="facebook" title="linkedin"><i class="icon-glyph-308"></i></a>
+								</li>
+								<li>
+									<a href="https://twitter.com/Vegasvikk2" title="twitter" class="twitter"><i class="icon-glyph-339"></i></a>
+								</li>
+								<li>
+									<a href="https://plus.google.com/+VickieComrie" title="gplus" class="gplus"><i class="icon-glyph-317"></i></a>
+								</li>
+							</ul> 
+
+							<address class="pt">
+								<p>
+									
+									702.350.0032 <br>
+									<a href="mailto:info@comrieconsulting.com">info@comrieconsulting.com</a>
+								</p>
+							</address>
 						</div>
 					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<div class="footer-widget">
+							<h3>More News</h3>
+							<ul class="list-unstyled list-icon arrow border">
+								<li class="no-pt">I'm learning how to document APIs through a 4-course series from <a href="https://www.udemy.com/api-documentation-1-json-and-xml/learn/v4/overview">Udemy</a> with classes written by the president of SDK Bridge, <a href="https://www.udemy.com/user/petergruenbaum/">Peter Gruenbaum.</a>
+								</li>
+								
+								<li>I will be co-leading a virtual class, "Intro to WordPress", starting January 14, 2018 and offered by <a href="https://www.meetup.com/bostonphp/events/244406606/">Boston PHP Meetup.</a></li>
+
+							</ul>
+						</div>
+					</div>
+
 				</div>
 			</div>
-		</footer><!--/ footer-->
+		</footer>
+		<!-- / footer -->
+
 	</div><!--global wrapper-->
 	<!--End Document ================================================== -->
 	<!--Placed at the end of the document so the pages load faster -->
-	<script src="neko-framework/js/jquery/jquery-2.1.4.min.js" type="text/javascript">
+	<script src="js/jquery/jquery-2.1.4.min.js">
 	</script> 
-	<script src="neko-framework/js/jquery-ui/jquery-ui-1.8.23.custom.min.js" type="text/javascript">
+	<script src="js/jquery-ui/jquery-ui-1.8.23.custom.min.js">
 	</script> <!--external framework plugins-->
 	 
-	<script src="neko-framework/external-plugins/external-plugins.min.js" type="application/javascript">
+	<script src="external-plugins/external-plugins.min.js">
 	</script> <!-- neko framework script -->
 	 
-	<script src="neko-framework/js/neko-framework.js" type="text/javascript">
+	<script src="js/framework.js">
 	</script> <!--neko custom script --> 
 	<script src="js/custom.js">
 	</script>
